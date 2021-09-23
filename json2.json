@@ -1,0 +1,27 @@
+[
+    {
+        "nom ": "Billy",
+        "note ": 12,
+        "admis ": true
+    },
+    {
+        "nom ": "Phillipe",
+        "note ": 8,
+        "admis ": false
+    },
+    {
+        "nom ": "Jonas",
+        "note ": 13,
+        "admis ": true
+    },
+    {
+        "nom ": "Agatha",
+        "note ": 10,
+        "admis ": true
+    },
+    {
+        "nom ": "Eleanore",
+        "note ": 15,
+        "admis ": true
+    }
+]

@@ -1,0 +1,20 @@
+{
+    "Diseases":[
+        {
+            "Title": "AAV5-Factor VIII Gene Transfer in Severe Hemophilia A.",
+            "Authors": "Pasi KJ",
+            "Citation": "Patients with hemophilia A rely on exogenous factor VIII to prevent"
+        },
+        {
+            "Title": "Emicizumab Prophylaxis in Hemophilia A with Inhibitors",
+            "Authors": "Rangarajan S",
+            "Citation": "Although successful gene transfer has been reported in patients with hemophilia B"
+
+        },
+        {
+            "Title": "Multiyear Follow-up of AAV5-hFVIII-SQ Gene Therapy for Hemophilia A",
+            "Authors": "Pierce GF",
+            "Citation": "We infused a single intravenous dose of a codon-optimized adeno-associated virus serotype 5"
+        }
+    ]
+}
