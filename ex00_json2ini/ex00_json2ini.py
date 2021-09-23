@@ -1,16 +1,24 @@
 import json
 import configparser
+import os
 
 config = configparser.ConfigParser()
 
-f = open('json.json',)
+file = "jsons.json"
 
-data = json.load(f)
+if (os.path.exists(file)):
+
+    f = open('json.json',)
+
+    data = json.load(f)
  
-for i in data.keys():
-    config[i]= data.get(i)
+    for i in data.keys():
+        config[i]= data.get(i)
 
-with open('example.ini', 'w') as configfile:
-    config.write(configfile)
+    with open('example.ini', 'w') as configfile:
+        config.write(configfile)
 
-f.close()
+    f.close()
+
+else :
+    print("le fichier n'existe pas")

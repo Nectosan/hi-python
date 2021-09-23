@@ -4,9 +4,25 @@ def Random(start,end):
     return random.randint(start,end)
 
 def main():
-    x=Random(0,9)
+
+    print("Veuillez entrer le numéro de départ")
+    start=int(input())
+
+    while start<0:    
+        print("Le numéro ne peut pas être négatif")
+        start=int(input())
+        
+    print("Veuillez entrer le numéro d'arrivée")
+    end=int(input())
+
+    while end<start:    
+        print("Le numéro ne peut pas être inférieur au numéro d'arrivée")
+        end=int(input())
+
+    x=Random(start,end)
 
     while (True):
+        print("Devinez le numéro")
         answer=int(input())
 
         if answer==x:
